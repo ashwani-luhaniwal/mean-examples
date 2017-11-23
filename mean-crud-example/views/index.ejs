@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>MEAN CRUD App using EJS Template Engine</title>
+
+        <script type="text/javascript" src="main.js"></script>
+    </head>
+    <body>
+        May Node and Express be with you.
+        <ul class="quotes">
+            <% for(let i = 0; i < quotes.length; i++) { %>
+                <li class="quote">
+                    <span><%= quotes[i].name %></span>
+                    <span><%= quotes[i].quote %></span>
+                </li>
+            <% } %>
+        </ul>
+
+        <form action="/quotes" method="post">
+            <input type="text" placeholder="name" name="name"/>
+            <input type="text" placeholder="quote" name="quote"/>
+            <button type="submit">Submit</button>
+        </form>
+
+        <div>
+            <h2>Update the comment</h2>
+            <button id="update" onclick="updateComment()">Update the comment</button>
+        </div>
+        <div>
+            <h2>Delete the comment</h2>
+            <button id="delete" onclick="deleteComment()">Delete the comment</button>
+        </div>
+    </body>
+</html>

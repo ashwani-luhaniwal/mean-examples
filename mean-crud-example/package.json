@@ -1,0 +1,24 @@
+{
+  "name": "mean-crud-sample-app",
+  "version": "1.0.0",
+  "description": "CRUD operations in MEAN based app",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "MEAN",
+    "CRUD"
+  ],
+  "author": "Ashwani K Luhaniwal",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
