@@ -1,0 +1,22 @@
+{
+  "name": "mean-sample-02",
+  "version": "1.0.0",
+  "description": "MEAN Sample Example App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "MEAN",
+    "Sample",
+    "Demo"
+  ],
+  "author": "Ashwani K Luhaniwal",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "method-override": "^2.3.10",
+    "mongoose": "^4.13.4"
+  }
+}
